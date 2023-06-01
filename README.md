@@ -1,4 +1,4 @@
-# test-santriweb
+# test-santriweb - Solfejo E-commerce
 
 ## Project setup
 ```
