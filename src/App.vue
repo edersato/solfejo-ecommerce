@@ -1,14 +1,26 @@
 <template>
   <div id="app">
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">Ajuda</router-link>
-    </nav>
-    <router-view/>
+    <header>
+      <HeadNav />
+    </header>
   </div>
 </template>
 
-<style>
+<script>
+import HeadNav from './components/shared/HeadNav.vue'
+export default {
+  components: {
+    HeadNav
+  }
+}
+</script>
+
+<style lang="scss" scoped>
+* {
+  margin: 0;
+  padding: 0;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -19,14 +31,10 @@
 
 nav {
   padding: 30px;
-}
 
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
+  a {
+    font-weight: bold;
+    color: #2c3e50;
+  }
 }
 </style>
