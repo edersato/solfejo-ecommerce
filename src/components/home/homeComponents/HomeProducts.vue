@@ -11,7 +11,7 @@
 
           <h6>R$5700,00</h6>
           <b-card-text>Guitarra Tagima Jet Blues Cosmos Vermelha</b-card-text>
-          <b-button>Saiba Mais</b-button>
+          <b-button class="btnProduct" to="/product">Saiba Mais</b-button>
         </b-card>
 
         <b-card
@@ -57,7 +57,7 @@ export default {
 #homeProduct {
   margin: 2.5em 7em;
 
-  button {
+  button, .btnProduct {
     background: #d95621;
     border: #d95621;
   }
