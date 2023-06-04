@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-navbar toggleable="lg" class="navHeader" sticky>
+    <b-navbar toggleable="lg" class="navHeader">
         <b-navbar-brand to="/">
             <img src="../../assets/solfejo.png" alt="Solfejo logo" class="mx-2 w-50 logo">
         </b-navbar-brand>

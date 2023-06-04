@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="headerHome">
     <b-card
       overlay
       :img-src="cardImageHeader"
@@ -7,7 +7,7 @@
     >
     </b-card>
     <div class="bottomInfo">
-      <h1>Potencialize sua música e amplifique seu som!</h1>
+      <p>Potencialize sua música e amplifique seu som!</p>
     </div>
   </div>
 </template>
@@ -30,12 +30,12 @@ export default {
   position: relative;
   top: -3.5em;
   background: brown;
-  opacity: 0.8;
 
-  h1 {
+  p {
     color: white;
     font-weight: bold;
     text-align: center;
+    font-size: 1.5em;
   }
 }
 

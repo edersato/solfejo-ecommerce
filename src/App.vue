@@ -33,6 +33,7 @@ export default {
 body {
   font-family: 'Cairo', sans-serif;
 }
+
 </style>
 
 <style scoped>

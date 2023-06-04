@@ -1,55 +1,37 @@
 <template>
-  <div>
-    <h2>Produtos Mais Buscados</h2>
-    <div class="d-flex">
+  <div id="homeProduct">
+    <h1 class="mb-5">Produtos Mais Buscados</h1>
+    <div>
       <b-card-group deck>
         <b-card
           title="Guitarra Tagima"
           :img-src="cardProduct01"
           img-alt="Guitarra Tagima"
-          img-top
-          class="card01"
-        >
-          <b-card-text>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
-          </b-card-text>
-          <template #footer>
-            <small class="text-muted">Last updated 3 mins ago</small>
-          </template>
+          img-top>
+
+          <h6>R$5700,00</h6>
+          <b-card-text>Guitarra Tagima Jet Blues Cosmos Vermelha</b-card-text>
+          <b-button>Saiba Mais</b-button>
         </b-card>
 
         <b-card
-          title="Guitarra Epiphone"
+          title="Guitarra Ibanez"
           :img-src="cardProduct02"
-          img-alt="Image"
-          img-top
-          class="card01"
-        >
-          <b-card-text>
-            This card has supporting text below as a natural lead-in to
-            additional content.
-          </b-card-text>
-          <template #footer>
-            <small class="text-muted">Last updated 3 mins ago</small>
-          </template>
+          img-alt="Guitarra Ibanez"
+          img-top>
+
+          <h6>R$6200,00</h6>
+          <b-card-text>Guitarra Ibanez Epiphone A5 73G Rosa</b-card-text>
+          <b-button>Saiba Mais</b-button>
         </b-card>
 
         <b-card
-          title="Guitarra Gibson"
+          title="Guitarras Gibson"
           :img-src="cardProduct03"
-          img-alt="Image"
-          img-top
-          class="card01"
-        >
-          <b-card-text>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This card has even longer content than the
-            first to show that equal height action.
-          </b-card-text>
-          <template #footer>
-            <small class="text-muted">Last updated 3 mins ago</small>
-          </template>
+          img-alt="Guitarras Gibson"
+          img-top>
+          <b-card-text>Seleção de guitarras Gibson sob demanda e pedido antecipado</b-card-text>
+          <b-button>Saiba Mais</b-button>
         </b-card>
       </b-card-group>
     </div>
@@ -72,15 +54,18 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-h2 {
+#homeProduct {
+  margin: 2.5em 7em;
+
+  button {
+    background: #d95621;
+    border: #d95621;
+  }
+}
+
+h1 {
   text-align: center;
   font-weight: bold;
   color: #d95621;
-}
-
-.card01 {
-  img {
-    width: 10%;
-  }
 }
 </style>
