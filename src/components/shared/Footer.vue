@@ -1,19 +1,17 @@
 <template>
   <div>
     <section class="infoFooter">
-        <b-nav vertical class="w-25">
-            <b-nav-item active>Active</b-nav-item>
-            <b-nav-item>Link</b-nav-item>
-            <b-nav-item>Another Link</b-nav-item>
-            <b-nav-item disabled>Disabled</b-nav-item>
+        <b-nav vertical class="w-25"> 
+            <b-nav-item href="https://github.com/edersato">Sobre Nós</b-nav-item>
+            <b-nav-item href="https://www.linkedin.com/in/eder-da-rosa-sato/">Nossa História</b-nav-item>
+            <b-nav-item href="https://santri.com.br/home">FAQ</b-nav-item>
         </b-nav>
-        <b-nav vertical class="w-25">
-            <b-nav-item active>Active</b-nav-item>
-            <b-nav-item>Link</b-nav-item>
-            <b-nav-item>Another Link</b-nav-item>
-            <b-nav-item disabled>Disabled</b-nav-item>
+        <b-nav vertical class="w-75">
+            <b-nav-item active>Central do Cliente</b-nav-item>
+            <b-nav-item>Acompanhe Seu Pedido</b-nav-item>
+            <b-nav-item>Cadastro</b-nav-item>
         </b-nav>
-        <div>
+        <div class="socialMediaArea">
             <img src="../../../src/assets/solfejo.png" class="w-50 logo" alt="">
             <div class="icons">
                 <b-icon-facebook></b-icon-facebook>
@@ -26,7 +24,7 @@
     <section class="footer">
         <div class="footerFinal">
             <img src="../../../src/assets/santri.png" alt="Logo Santri" class="logoSantri mt-2">
-            <p>2023 - Santri Web</p>
+            <p>2023 - projeto realizado para Santri</p>
         </div>
     </section>
   </div>
@@ -61,8 +59,15 @@ export default {
     }
 }
 
-.icons {
+.socialMediaArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.icons > svg {
     color: white;
+    padding-right: 1.5em;
 }
 
 // Info Footer 
@@ -92,5 +97,23 @@ export default {
     }
 }
 
+@media (min-width: 319px) and (max-width: 500px) {
+    .infoFooter {
+        display: none;
+    }
+}
 
+@media (min-width: 501px) and (max-width: 768px) {
+    .infoFooter {
+        font-size: 10px;
+
+        .socialMediaArea {
+            justify-content: center;
+        }
+
+        .icons > svg {
+            padding-left: 0.5em;
+        }
+    }
+}
 </style>

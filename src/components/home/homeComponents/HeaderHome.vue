@@ -39,4 +39,22 @@ export default {
   }
 }
 
+@media (min-width: 319px) and (max-width: 500px) {
+    .bottomInfo {
+      top: -1.7em; 
+
+      p {
+        font-size: 0.8em;
+      }
+    }
+}
+
+@media (min-width: 501px) and (max-width: 768px) {
+  .bottomInfo {
+    p {
+      font-size: 1em;
+    }
+  }
+}
+
 </style>
