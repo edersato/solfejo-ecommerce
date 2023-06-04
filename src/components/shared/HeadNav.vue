@@ -17,12 +17,8 @@
                 <b-icon-bag-fill /> Produto
                 </router-link>
 
-                <router-link to="/cart">
-                    <b-icon-cart-fill /> Carrinho
-                </router-link>
-
                 <router-link to="/about">
-                    <b-icon-person-fill /> Usuário
+                    <b-icon-info-circle-fill /> Contato
                 </router-link>
             </b-navbar-nav>
         </b-collapse>
@@ -31,14 +27,13 @@
 </template>
 
 <script>
-import { BIconCart, BIconBagFill, BIconHouseFill, BIconPersonFill } from 'bootstrap-vue'
+import { BIconBagFill, BIconHouseFill, BIconInfoCircleFill } from 'bootstrap-vue'
 
 export default {
     components: {
-        BIconCart,
         BIconBagFill,
         BIconHouseFill,
-        BIconPersonFill
+        BIconInfoCircleFill
     }
     
 }
