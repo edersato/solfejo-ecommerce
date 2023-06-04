@@ -10,7 +10,7 @@
             <p>REF: 00001</p>
             <h6>RS$5700,00</h6>
             <p>10x de R$517,00 sem juros</p>
-            <div class="d-flex justify-content-between">
+            <div class="d-flex justify-content-between price">
                 <h2>R$5700,00</h2>
                 <b-button pill class="btnBuy">Comprar</b-button>
             </div>
@@ -50,7 +50,7 @@
             </b-tab>
             <b-tab title="Comentários" class="comments">
                 <div>
-                    <b-avatar variant="primary" text="LS"></b-avatar>
+                    <b-avatar variant="danger" text="LS"></b-avatar>
                     <p class="ml-2">Guitarra muito boa, com uma ótima sonoridade. Segura bem a afinação</p>
                 </div>
                 <div>
@@ -58,7 +58,7 @@
                     <p class="ml-2">Amplitude do som é perfeita, ótima experiência</p>
                 </div>
                 <div>
-                    <b-avatar variant="danger"></b-avatar>
+                    <b-avatar variant="info"></b-avatar>
                     <p class="ml-2">Ótimo custo benefício 👍</p>
                 </div>
             </b-tab>
@@ -90,6 +90,11 @@ export default {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        line-height: 0.5em;
+
+        h4 {
+            font-weight: bold;
+        }
 
 
         .btnBuy {
@@ -114,6 +119,54 @@ export default {
         display: flex;
         padding: 0.5em;
         align-items: baseline;
+    }
+}
+
+@media (min-width: 319px) and (max-width: 500px) {
+    #product {
+        flex-direction: column;
+        margin: 0;
+
+        img {
+            width: 90%;
+        }
+
+        .infoProduct {
+            text-align: center;
+
+            .price {
+                flex-direction: column;
+                margin: 1em 0;
+
+                button {
+                    margin: 1em 2em;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 501px) and (max-width: 980px) {
+    #product {
+        flex-direction: column;
+        margin: 0;
+
+        img {
+            width: 90%;
+        }
+
+        .infoProduct {
+            text-align: center;
+
+            .price {
+                flex-direction: column;
+                margin: 1em 0;
+
+                button {
+                    margin: 1em 2em;
+                }
+            }
+        }
     }
 }
 

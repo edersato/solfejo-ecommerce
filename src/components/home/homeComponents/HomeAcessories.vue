@@ -1,6 +1,6 @@
 <template>
   <div id="homeAcessories">
-    <h1 class="mb-5 mt-5">Outros Departamentos</h1>
+    <h1 class="mb-5 mt-5">Departamentos</h1>
     <div>
       <b-card-group deck>
         <b-card title="Cabos e acessórios" :img-src="cardProduct04" img-alt="Image" img-top>
@@ -40,7 +40,7 @@ export default {
 
 #homeAcessories {
   background: #eeeeee;
-  padding: 2em 12em;
+  padding: 2em 8em;
 
   button {
     background: #d95621;
@@ -52,5 +52,34 @@ h1 {
   text-align: center;
   font-weight: bold;
   color: #d95621;
+}
+
+@media (min-width: 319px) and (max-width: 500px) {
+    #homeAcessories {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding: 0;
+
+      h1 {
+        font-size: 2em;
+      }
+    }
+}
+
+@media (min-width: 501px) and (max-width: 768px) {
+    #homeAcessories {
+      display: flex;
+      flex-direction: column;
+      padding: 1em;
+      text-align: center;
+    h1 {
+      font-size: 2em;
+    }
+  }
+}
+
+@media (min-width: 769px) {
+
 }
 </style>

@@ -68,4 +68,29 @@ h1 {
   font-weight: bold;
   color: #d95621;
 }
+
+@media (min-width: 319px) and (max-width: 500px) {
+  #homeProduct {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+
+    h1 {
+      font-size: 1em;
+    }
+  }
+}
+
+@media (min-width: 501px) and (max-width: 768px) {
+    #homeProduct {
+      display: flex;
+      flex-direction: column;
+      margin: 1em;
+      text-align: center;
+    h1 {
+      font-size: 2em;
+    }
+  }
+}
 </style>
