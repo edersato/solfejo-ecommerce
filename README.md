@@ -3,7 +3,7 @@
 
 Projeto construído em Vue.js para avaliação de código. A ideia da Solfejo é ser uma loja de instrumentos e acessórios musicais, voltada ao E-commerce
 
-A visualização do Figma é possível encontrar [**aqui**](github.com/edersato).
+A visualização do Figma é possível encontrar [**aqui**](https://www.figma.com/file/lhu8U7CftbiugJfmmZ9VPs/Untitled?type=design&node-id=2%3A156&t=HaM5jFQ4UteCfcKy-1).
 
 ### Observações
 
