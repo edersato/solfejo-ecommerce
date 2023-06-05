@@ -58,7 +58,7 @@
                     <p class="ml-2">Amplitude do som é perfeita, ótima experiência</p>
                 </div>
                 <div>
-                    <b-avatar variant="info"></b-avatar>
+                    <b-avatar variant="info" text="JC"></b-avatar>
                     <p class="ml-2">Ótimo custo benefício 👍</p>
                 </div>
             </b-tab>
