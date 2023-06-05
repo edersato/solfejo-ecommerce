@@ -39,6 +39,7 @@ body {
 <style scoped>
 
 /* 
+base color
 
 base = #a52a2a
 sdef = #D95621 (laranja)
