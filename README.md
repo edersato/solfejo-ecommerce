@@ -1,5 +1,4 @@
-# test-santriweb
-## Solfejo E-commerce
+# Solfejo E-commerce
 
 Projeto construído em Vue.js para avaliação de código. A ideia da Solfejo é ser uma loja de instrumentos e acessórios musicais, voltada ao E-commerce
 
