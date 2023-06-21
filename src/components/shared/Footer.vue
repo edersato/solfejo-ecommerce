@@ -4,7 +4,7 @@
         <b-nav vertical class="w-25"> 
             <b-nav-item href="https://github.com/edersato">Sobre Nós</b-nav-item>
             <b-nav-item href="https://www.linkedin.com/in/eder-da-rosa-sato/">Nossa História</b-nav-item>
-            <b-nav-item href="https://santri.com.br/home">FAQ</b-nav-item>
+            <b-nav-item href="">FAQ</b-nav-item>
         </b-nav>
         <b-nav vertical class="w-75">
             <b-nav-item active>Central do Cliente</b-nav-item>
@@ -19,12 +19,6 @@
                 <b-icon-youtube></b-icon-youtube>
                 <b-icon-twitter></b-icon-twitter>
             </div>
-        </div>
-    </section>
-    <section class="footer">
-        <div class="footerFinal">
-            <img src="../../../src/assets/santri.png" alt="Logo Santri" class="logoSantri mt-2">
-            <p>2023 - projeto realizado para Santri</p>
         </div>
     </section>
   </div>

@@ -7,8 +7,6 @@ A visualização do Figma é possível encontrar [**aqui**](https://www.figma.co
 ### Observações
 
  - Para esse projeto, as imagens foram baixadas e inseridas manualmente, para funcionamento via *NPM*. O código possui acesso ao banco de imagens da [Unplash](https://unsplash.com/), porém a visualização das mesmas necessitam alteração da chave de acesso
- 
- - Unifiquei o desafio que era somente para o Figma e coloquei também no código, que é a seção de comentários no produto
 
 Abaixo encontram-se as informações para build do projeto
 
